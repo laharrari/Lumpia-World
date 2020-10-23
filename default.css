@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, strong{
 }
 
 p, li, span, label, input, textarea{
-    color: var(--secText);
+    color: var(--mainText);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -50,11 +50,11 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: var(--mainColor);
+    background-color: #66a103;
 }
 
 .logo{
-    color: var(--mainColor);
+    color: #66a103;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -105,9 +105,9 @@ nav{
 #lw_pic {
     display: block;
     margin: 0 auto;
-    height: 243px;
-    width: 600px;
-    object-fit: cover;
+    height: 200px;
+    width: 90%;
+    object-fit: contain;
     border: 2px solid var(--borderColor);
 }
 
@@ -116,6 +116,41 @@ nav{
     text-align: center;
     align-content: center;
     min-height: 10em;
+}
+
+.story-lw{
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 10em;
+    width: 60%;
+}
+
+.story-lw p{
+    text-align: left;
+}
+
+.media-lw{
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 10em;
+    width: 60%;
+}
+
+.menu-lw{
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 10em;
+    width: 60%;
+}
+
+.menu-lw p{
+    text-align: left;
 }
 
 #contact-form {
@@ -175,11 +210,11 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: var(--mainColor);
+        background-color: #66a103;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 25%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
@@ -195,9 +230,9 @@ nav{
     #lw_pic {
         display: block;
         margin: 0 auto;
-        height: 152px;
-        width: 375px;
-        object-fit: cover;
+        height: 200px;
+        width: 90%;
+        object-fit: contain;
         border: 2px solid var(--borderColor);
     }
 }

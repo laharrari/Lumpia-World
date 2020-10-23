@@ -19,4 +19,13 @@ const navSlide = () => {
     });
 }
 
+const openMenu = () => {
+    const btn = document.querySelector('.btn');
+
+    btn.addEventListener('click', () => {
+        window.open('files/menu.pdf');
+    });
+}
+
 navSlide();
+openMenu();

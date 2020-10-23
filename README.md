@@ -27,7 +27,7 @@ I created a static website using HTML, CSS, and JavaScript. Some notable feature
 
     - There are 5 main pages: Home, Our Story, Media, Menu, and Contact
 
-    - The navigation bar features buttons that allow the user to navigate to relevant informatiion at any time. The bar itself is
+    - The navigation bar features buttons that allow the user to navigate to relevant information at any time. The bar itself is
     also sticky so it'll follow the user when they scroll down.
 
     - When viewed in mobile or in a smaller window the navigation bar will turn into a "burger" which is animated and can be clicked
@@ -35,6 +35,8 @@ I created a static website using HTML, CSS, and JavaScript. Some notable feature
 
     - There is a contact page, with fields for Name, Subject, Email, and Message. For the sake of the assessment it is not functional.
     It could be made functional with some research.
+
+    - Animated menu button which opens a pdf containing menu items in a new tab.
 
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
 
