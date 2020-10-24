@@ -58,7 +58,7 @@ For the sake of the assessment I chose not to host on a custom domain. However, 
     4. Setup my Git with AWS CodePipeline so when I make changes to the site's repository it'll update the S3 bucket, which in return
     updates the site live.
 
-Notes:
+# Notes:
 
     - I created a seperate CSS file for the animated menu button just because there was so much to it, I wanted to decompose it.
     Same with for the contact form and slideshow CSS components.
@@ -66,9 +66,10 @@ Notes:
     - Tried my best to decompose code and keep things organized, but admittedly the CSS files are a bit messy.
 
 
-Resources:
+# Resources:
 
-    - https://www.google.com/
-    - https://www.youtube.com/
-    - https://www.w3schools.com/
-    - https://freefrontend.com/
+I used Google heavily and worked hard to make my own creation, but of course at times I did look for inspiration else where.
+To credit those I borrowed heavily from I will link their work below:
+
+    - https://codepen.io/ryne/pen/PoPoqgO
+    - https://codepen.io/sazzad/pen/WbdzzQ/
