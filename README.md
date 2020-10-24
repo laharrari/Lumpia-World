@@ -38,13 +38,13 @@ Features are:
     - The navigation bar features buttons that allow the user to navigate to relevant information at any time.
     The bar itself is also sticky so it'll follow the user when they scroll down.
 
-    - When viewed in mobile or in a smaller window the navigation bar will turn into a "burger" which is animated
-    and can be clicked to display all the buttons that are in the nav bar conveniently.
+    - When viewed in mobile or in a smaller window the navigation bar will turn into a "burger" which is
+    animated and can be clicked to display all the buttons that are in the nav bar conveniently.
 
     - Media page includes embedded videos featuring Lumpia World.
 
-    - There is a contact page with fields for Name, Subject, Email, and Message. For the sake of the assessment
-    it is not functional.
+    - There is a contact page with fields for Name, Subject, Email, and Message. For the sake of the
+    assessment it is not functional.
 
     - Embedded a Google Maps featuring the store front of Lumpia World on the contact page with the address.
 
