@@ -64,6 +64,10 @@ Features are:
     - Tested mobile view on Google Chrome using F12 and the top left "Toggle device toolbar".
     I used my phone as well (iPhone 7 Plus).
 
+    - I realized that on my device the footer formatting was getting ruined because iOS was trying to
+    format the number into a callable one. I had a friend with an Android device check for me and
+    his footer looked fine. Glad I caught this one.
+
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
 
     1. I would use AWS S3 to store the site files.
