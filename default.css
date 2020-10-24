@@ -5,7 +5,6 @@
     --borderColor: #c1c1c1;
 
     --mainText: black;
-
 }
 
 html, body{
@@ -30,18 +29,6 @@ h3 {font-size: 28px;}
 h4 {font-size: 24px;}
 h5 {font-size: 20px;}
 h6 {font-size: 16px;}
-
-.s1{
-    background-color: var(--mainColor);
-    border-bottom: 1px solid var(--borderColor);
-    overflow: auto;
-}
-
-.s2{
-    background-color: var(--secColor);
-    border-bottom: 1px solid var(--borderColor);
-    overflow: auto;
-}
 
 nav{
     position: sticky;
@@ -149,10 +136,8 @@ nav{
 }
 
 iframe {
-    margin: 20px auto;
+    margin: 0 auto;
     width: 100%;
-    padding: 10px;
-    display: block;
 }
 
 .menu-lw{
@@ -254,7 +239,7 @@ iframe {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 25%;
+        width: 40%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
@@ -273,11 +258,27 @@ iframe {
         height: 200px;
         width: 90%;
         object-fit: contain;
-        border: 2px solid var(--borderColor);
+        margin-bottom: -100px;
+    }
+
+    #ft_pic {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: -20px;
+        margin-top: -20px;
+        height: 400px;
+        width: 110%;
+        object-fit: contain;
     }
 
     .menu-row{
         display: inline;
+    }
+
+    iframe {
+        margin: 0 auto;
+        width: 100%;
+        height: 200px;
     }
 }
 
