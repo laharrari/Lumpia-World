@@ -21,8 +21,8 @@ opening index.html with a browser of choice.
 # Lumpia World
 
 The inspiration for my website came from a close friend. They run a family owned business called "Lumpia World".
-It is a popular food truck with a store front location based out of Washington and I felt their current
-[website](https://www.lumpiaworld.com/) could use a more modern and custom face lift.
+It is a popular food truck with a store front location based out of Washington and I wanted to make my version
+of their current [website](https://www.lumpiaworld.com/).
 
 I chose to make this website as a concept of something they could use in the future, but not necessarily use
 directly as this site is for the NavigatorCRE front end developer assessment.
