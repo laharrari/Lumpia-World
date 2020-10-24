@@ -77,7 +77,6 @@ For the sake of the assessment I chose not to host on a custom domain. However, 
     4. Setup my Git with AWS CodePipeline so when I make changes to the site's repository it'll update the
     S3 bucket, which in return updates the site live.
 
-
 # Resources:
 
 I utilized Google and worked hard to make my own creation, but of course at times I did look for inspiration else where.
