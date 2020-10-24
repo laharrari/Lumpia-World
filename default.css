@@ -216,7 +216,7 @@ iframe {
 footer{
     width: 100%;
     bottom: 0;
-    display: flex;
+    display: block;
     justify-content: space-around;
     align-items: flex-end;
     min-height: 10vh;
