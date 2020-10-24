@@ -58,8 +58,8 @@ Features are:
 
     - Tried my best to decompose code and keep things organized, but admittedly the CSS files are a bit messy.
 
-    - A majority of the challenges I faced were CSS related where I would have trouble formatting certain components
-    in a particular way.
+    - A majority of the challenges I faced were CSS related where I would have trouble formatting certain
+    components in a particular way.
 
     - Tested mobile view on Google Chrome using F12 and the top left "Toggle device toolbar".
     I used my phone as well (iPhone 7 Plus).
@@ -68,10 +68,10 @@ For the sake of the assessment I chose not to host on a custom domain. However, 
 
     1. I would use AWS S3 to store the site files.
     2. Buy a custom and relevant domain name from Google Domains.
-    3. Use AWS Route 53 with my S3 bucket and custom domain I purchased so that when searching my custom domain it
-    takes users to my S3 bucket without the gross looking link.
-    4. Setup my Git with AWS CodePipeline so when I make changes to the site's repository it'll update the S3 bucket,
-    which in return updates the site live.
+    3. Use AWS Route 53 with my S3 bucket and custom domain I purchased so that when searching my custom
+    domain it takes users to my S3 bucket without the gross looking link.
+    4. Setup my Git with AWS CodePipeline so when I make changes to the site's repository it'll update the
+    S3 bucket, which in return updates the site live.
 
 
 # Resources:
