@@ -51,6 +51,7 @@ nav{
     align-items: center;
     min-height: 8vh;
     background-color: #66a103;
+    z-index: 1;
 }
 
 .logo{
@@ -104,7 +105,7 @@ nav{
 
 #lw_pic {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     height: 200px;
     width: 90%;
     object-fit: contain;
@@ -138,6 +139,13 @@ nav{
     align-content: center;
     min-height: 10em;
     width: 60%;
+}
+
+iframe {
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    display: block;
 }
 
 .menu-lw{

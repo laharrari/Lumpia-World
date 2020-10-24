@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="default.css">
+        <link rel="stylesheet" type="text/css" href="slideshow.css">
 
     </head>
     <body>
@@ -42,8 +43,38 @@
 
         <section class="s1">
             <div class="main-container">
-                <div class="greeting-wrapper">
-                    
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                    <img id="img" src="images/img1.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <img id="img" src="images/img2.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <img id="img" src="images/img3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                    <img id="img" src="images/img4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                    <img id="img" src="images/img5.jpg" style="width:100%">
+                    </div>
+                
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
                 </div>
             </div>
         </section>
@@ -62,5 +93,6 @@
         </section>
 
         <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="slide.js"></script>
     </body>
 </html>

@@ -50,3 +50,6 @@ For the sake of the assessment I chose not to host on a custom domain. However, 
 Notes:
 
     - I created a seperate CSS file for the animated menu button just because there was so much to it, I wanted to decompose it.
+
+    - Not going to even lie, I started decomposing the code a bit later than I should have so it is a little messy, but I am
+    refactoring to organize.
