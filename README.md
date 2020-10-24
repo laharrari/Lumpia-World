@@ -62,7 +62,7 @@ Features are:
     components in a particular way.
 
     - Tested mobile view on Google Chrome using F12 and the top left "Toggle device toolbar".
-    I used my phone as well (iPhone 7 Plus).
+    I used my phone as well (iPhone 7 Plus) and for diversity I had a friend test on his Android device.
 
     - I realized that on my device the footer formatting was getting ruined because iOS was trying to
     format the number into a callable one. I had a friend with an Android device check for me and
