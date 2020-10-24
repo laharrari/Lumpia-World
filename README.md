@@ -83,5 +83,6 @@ For the sake of the assessment I chose not to host on a custom domain. However, 
 I utilized Google and worked hard to make my own creation, but of course at times I did look for inspiration else where.
 To credit those I borrowed heavily from I will link their work below:
 
+    - Dev Ed: https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q
     - https://codepen.io/ryne/pen/PoPoqgO
     - https://codepen.io/sazzad/pen/WbdzzQ/
