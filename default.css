@@ -353,6 +353,10 @@ footer p{
     .google-maps{
         width: 100%;
     }
+
+    footer{
+        min-height: 14vh;
+    }
 }
 
 .nav-active{
