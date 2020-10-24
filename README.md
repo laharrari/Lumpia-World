@@ -68,6 +68,10 @@ Features are:
     format the number into a callable one. I had a friend with an Android device check for me and
     his footer looked fine. Glad I caught this one.
 
+    - One issue I had was the nav bar was supposed to be sticky, but something was breaking that. I did
+    some investigating and discoverd "overflow-x: hidden" in html, body will break "position: sticky".
+    I fixed this by using "position: fixed" and adding padding to my "main-container".
+
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
 
     1. I would use AWS S3 to store the site files.
