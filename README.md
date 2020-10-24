@@ -66,6 +66,8 @@ Features are:
     using two separate CSS files for "Menu" and "Contact", perhaps theres a line making a difference in those files, but I plan on
     investigating.
 
+    - Tested mobile view on Google Chrome using F12 and the top left "Toggle device toolbar". I used my phone as well.
+
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
 
     1. I would use AWS S3 to store the site files.
