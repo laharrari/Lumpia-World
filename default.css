@@ -1,6 +1,6 @@
 :root{
-    --mainColor: #eaeaea;
-    --secColor: #fff;
+    --mainColor: #6f8704;
+    --secColor: #eaeaea;
 
     --borderColor: #c1c1c1;
 
@@ -10,6 +10,7 @@
 html, body{
     padding: 0;
     margin: 0;
+    padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6, strong{
@@ -37,12 +38,12 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #66a103;
+    background-color: var(--mainColor);
     z-index: 1;
 }
 
 .logo{
-    color: #66a103;
+    color: var(--mainColor);
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -113,6 +114,24 @@ nav{
     min-height: 10em;
 }
 
+.schedule{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 10em;
+    margin-bottom: 4vh;
+    border-top: 1px solid var(--borderColor);
+}
+
+.schedule h5{
+    margin-bottom: 20px;
+}
+
+.schedule p{
+    margin: 0 auto;
+    border-bottom: 1px solid var(--borderColor);
+}
+
 .story-lw{
     margin: 0 auto;
     display: grid;
@@ -133,6 +152,7 @@ nav{
     align-content: center;
     min-height: 10em;
     width: 60%;
+    margin-bottom: 50px;
 }
 
 iframe {
@@ -170,7 +190,7 @@ iframe {
     font-size: 20px;
 }
 
-#menu_pic {
+#menu_pic{
     display: block;
     margin: 20px auto;
     height: 200px;
@@ -178,44 +198,94 @@ iframe {
     object-fit: contain;
 }
 
-#contact-form {
-    display: block;
-    max-width: 600px;
+.google-maps{
     margin: 0 auto;
-    border: 1px solid var(--borderColor);
-    padding: 15px;
-    border-radius: 5px;
-    background-color: var(--mainColor);
+    display: grid;
+    text-align: center;
+    align-content: center;
+    min-height: 10em;
+    width: 60%;
     margin-bottom: 50px;
-}
-
-#contact-form label {
-    line-height: 2.5em;
-}
-
-#contact-form textarea {
-    min-height: 100px;
-    font-size: 14px;
-}
-
-.input-field {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: var(--secondaryColor);
-    border-radius: 5px;
     border: 1px solid var(--borderColor);
-    font-size: 14px;
 }
 
-#submit-btn {
-    margin-top: 10px;
+#gmaps{
+    width: 75%;
+}
+
+footer{
+    position: fixed;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    min-height: 10vh;
+    background-color: var(--mainColor);
+}
+
+footer p{
+    margin: 2.5px auto;
+}
+
+.footer-social-links{
+    font-size: 14px;
+    text-align: center;
+}
+.footer-social-links a{
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+    position: relative;
+    margin: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.footer-social-links a i,
+.footer-social-links a span{
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+.footer-social-links a:before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    
+}
+.footer-social-links a:hover{
     color: #fff;
-    background-color: var(--buttonColor);
-    border: none;
+}
+.footer-social-links a:hover:before{
+    background: black;
 }
 
 /* Between PC and mobile, maybe tablets? */
@@ -235,7 +305,7 @@ iframe {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #66a103;
+        background-color: var(--mainColor);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -279,6 +349,10 @@ iframe {
         margin: 0 auto;
         width: 100%;
         height: 200px;
+    }
+
+    .google-maps{
+        width: 100%;
     }
 }
 

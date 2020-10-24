@@ -10,6 +10,8 @@
             ◦ Ex. Floating action button, hamburger menu, animated elements (sliding up, hover, etc), words  icons (vice versa)
         • Contact/inquiry form
 
+Created by Harrison Lee
+[Repo Here](https://github.com/laharrari/NavigatorCRE-Assessment)
 
 
 # Lumpia World
@@ -25,7 +27,9 @@ is for the NavigatorCRE front end developer assessment.
 
 I created a static website using HTML, CSS, and JavaScript. Some notable features are:
 
-    - There are 5 main pages: Home, Our Story, Media, Menu, and Contact
+    - There are 5 main pages: Home, Our Story, Media, Menu, and Contact.
+
+    - Home page includes slideshow featuring images related to Lumpia World.
 
     - The navigation bar features buttons that allow the user to navigate to relevant information at any time. The bar itself is
     also sticky so it'll follow the user when they scroll down.
@@ -33,10 +37,17 @@ I created a static website using HTML, CSS, and JavaScript. Some notable feature
     - When viewed in mobile or in a smaller window the navigation bar will turn into a "burger" which is animated and can be clicked
     to display all the buttons that are in the nav bar conveniently.
 
-    - There is a contact page, with fields for Name, Subject, Email, and Message. For the sake of the assessment it is not functional.
-    It could be made functional with some research.
+    - Media page includes embedded videos featuring Lumpia World.
+
+    - There is a contact page with fields for Name, Subject, Email, and Message. For the sake of the assessment it is not functional.
+
+    - Embedded a Google Maps featuring the store front of Lumpia World on the contact page with the address.
 
     - Animated menu button which opens a pdf containing menu items in a new tab.
+
+    - Included footer at the bottom of the page that includes social media and contact info.
+
+    - Animated social media buttons for Facebook, Twitter, and Instagram in the footer.
 
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
 
@@ -50,6 +61,14 @@ For the sake of the assessment I chose not to host on a custom domain. However, 
 Notes:
 
     - I created a seperate CSS file for the animated menu button just because there was so much to it, I wanted to decompose it.
+    Same with for the contact form and slideshow CSS components.
 
-    - Not going to even lie, I started decomposing the code a bit later than I should have so it is a little messy, but I am
-    refactoring to organize.
+    - Tried my best to decompose code and keep things organized, but admittedly the CSS files are a bit messy.
+
+
+Resources:
+
+    - https://www.google.com/
+    - https://www.youtube.com/
+    - https://www.w3schools.com/
+    - https://freefrontend.com/
