@@ -13,6 +13,9 @@
 Created by Harrison Lee
 [Repo Here](https://github.com/laharrari/NavigatorCRE-Assessment)
 
+This static website was made in HTML, CSS, and JavaScript. I used Visual Studio code and Git pages to host the website online.
+For the best experience I would recommend cloning and opening the repository on Visual Studio and opening index.html with
+a browser of choice.
 
 # Lumpia World
 
@@ -25,7 +28,7 @@ is for the NavigatorCRE front end developer assessment.
 
 # The Site
 
-I created a static website using HTML, CSS, and JavaScript. Some notable features are:
+Features are:
 
     - There are 5 main pages: Home, Our Story, Media, Menu, and Contact.
 
@@ -49,6 +52,20 @@ I created a static website using HTML, CSS, and JavaScript. Some notable feature
 
     - Animated social media buttons for Facebook, Twitter, and Instagram in the footer.
 
+# Notes:
+
+    - I created a seperate CSS file for the animated menu button just because there was so much to it, I wanted to decompose it.
+    Same with for the contact form and slideshow CSS components.
+
+    - Tried my best to decompose code and keep things organized, but admittedly the CSS files are a bit messy.
+
+    - A majority of the challenges I faced were CSS related where I would have trouble formatting certain components in a particular way.
+    Thankfully, I was able to over come most these challenges, but one that persisted is, if you are on the desktop view of the site. If
+    click on "Menu" or "Contact" on the navigation bar, when you go to those pages the navigation bar and footer components shift just
+    slightly to the right. It is driving me insane and I am not quite sure what is causing that. My current hunch is becuase I am
+    using two separate CSS files for "Menu" and "Contact", perhaps theres a line making a difference in those files, but I plan on
+    investigating.
+
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
 
     1. I would use AWS S3 to store the site files.
@@ -58,17 +75,10 @@ For the sake of the assessment I chose not to host on a custom domain. However, 
     4. Setup my Git with AWS CodePipeline so when I make changes to the site's repository it'll update the S3 bucket, which in return
     updates the site live.
 
-# Notes:
-
-    - I created a seperate CSS file for the animated menu button just because there was so much to it, I wanted to decompose it.
-    Same with for the contact form and slideshow CSS components.
-
-    - Tried my best to decompose code and keep things organized, but admittedly the CSS files are a bit messy.
-
 
 # Resources:
 
-I used Google heavily and worked hard to make my own creation, but of course at times I did look for inspiration else where.
+I utilized Google and worked hard to make my own creation, but of course at times I did look for inspiration else where.
 To credit those I borrowed heavily from I will link their work below:
 
     - https://codepen.io/ryne/pen/PoPoqgO
