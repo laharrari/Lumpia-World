@@ -1,7 +1,7 @@
 # NavigatorCRE-Assessment
 
-    Goal: Design a full website with a clear theme and value proposition that meets accessibility standards and is mobile/desktop
-    responsive displaying useful UI/UX trends  
+    Goal: Design a full website with a clear theme and value proposition that meets accessibility standards and\\
+    is mobile/desktop responsive displaying useful UI/UX trends  
 
     Requirements:
         • 1 home page, minimum 4 additional pages
