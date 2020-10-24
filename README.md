@@ -54,19 +54,11 @@ Features are:
 
 # Notes:
 
-    - I created a seperate CSS file for the animated menu button just because there was so much to it, I wanted to decompose it.
-    Same with for the contact form and slideshow CSS components.
-
     - Tried my best to decompose code and keep things organized, but admittedly the CSS files are a bit messy.
 
     - A majority of the challenges I faced were CSS related where I would have trouble formatting certain components in a particular way.
-    Thankfully, I was able to over come most these challenges, but one that persisted is, if you are on the desktop view of the site. If
-    click on "Menu" or "Contact" on the navigation bar, when you go to those pages the navigation bar and footer components shift just
-    slightly to the right. It is driving me insane and I am not quite sure what is causing that. My current hunch is becuase I am
-    using two separate CSS files for "Menu" and "Contact", perhaps theres a line making a difference in those files, but I plan on
-    investigating.
 
-    - Tested mobile view on Google Chrome using F12 and the top left "Toggle device toolbar". I used my phone as well.
+    - Tested mobile view on Google Chrome using F12 and the top left "Toggle device toolbar". I used my phone as well (iPhone 7 Plus).
 
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
 
