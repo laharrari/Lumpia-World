@@ -32,7 +32,7 @@ h5 {font-size: 20px;}
 h6 {font-size: 16px;}
 
 nav{
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -40,6 +40,7 @@ nav{
     min-height: 8vh;
     background-color: var(--mainColor);
     z-index: 1;
+    width:100%;
 }
 
 .logo{
@@ -83,6 +84,7 @@ nav{
     width: 1200px;
     margin: 0 auto;
     min-height: calc(100vh - 50px);
+    padding-top: 100px;
 }
 
 .greeting-wrapper{
