@@ -69,7 +69,7 @@ Features are:
     his footer looked fine. Glad I caught this one.
 
     - One issue I had was the nav bar was supposed to be sticky, but something was breaking that. I did
-    some investigating and discoverd "overflow-x: hidden" in html, body will break "position: sticky".
+    some investigating and discovered "overflow-x: hidden" in html, body will break "position: sticky".
     I fixed this by using "position: fixed" and adding padding to my "main-container".
 
 For the sake of the assessment I chose not to host on a custom domain. However, if I were too:
