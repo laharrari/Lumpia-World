@@ -109,7 +109,14 @@ nav{
     height: 200px;
     width: 90%;
     object-fit: contain;
-    border: 2px solid var(--borderColor);
+}
+
+#ft_pic {
+    display: block;
+    margin: 20px auto;
+    height: 400px;
+    width: 90%;
+    object-fit: contain;
 }
 
 .about-lw{
@@ -154,11 +161,36 @@ iframe {
     text-align: center;
     align-content: center;
     min-height: 10em;
-    width: 60%;
+    width: 80%;
 }
 
 .menu-lw p{
     text-align: left;
+}
+
+.menu-row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.caption{
+    color: var(--mainText);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#menu_pic {
+    display: block;
+    margin: 20px auto;
+    height: 200px;
+    width: 90%;
+    object-fit: contain;
 }
 
 #contact-form {
@@ -242,6 +274,10 @@ iframe {
         width: 90%;
         object-fit: contain;
         border: 2px solid var(--borderColor);
+    }
+
+    .menu-row{
+        display: inline;
     }
 }
 

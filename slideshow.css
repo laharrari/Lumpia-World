@@ -2,7 +2,8 @@
 .slideshow-container {
     max-width: 500px;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: -10px;
   }
   
   /* Hide the images by default */
@@ -45,17 +46,6 @@
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
@@ -89,3 +79,18 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+
+/* For mobile users */
+@media screen and (max-width: 768px){
+  body{
+      overflow-x: hidden;
+  }
+
+  .slideshow-container {
+    max-width: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -100px;
+    overflow: hidden;
+  }
+}
