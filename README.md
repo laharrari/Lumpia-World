@@ -1,5 +1,5 @@
 Created by Harrison Lee
-[Repo Here](https://github.com/laharrari/NavigatorCRE-Assessment)
+[Repo Here](https://github.com/laharrari/Lumpia-World)
 
 This static website was made in HTML, CSS, and JavaScript. I used Visual Studio code and Git pages to host the
 website online. For the best experience I would recommend cloning and opening the repository on Visual Studio and
@@ -11,8 +11,7 @@ The inspiration for my website came from a close friend. They run a family owned
 It is a popular food truck with a store front location based out of Washington and I wanted to make my version
 of their current [website](https://www.lumpiaworld.com/).
 
-I chose to make this website as a concept of something they could use in the future, but not necessarily use
-directly as this site is for the NavigatorCRE front end developer assessment.
+I chose to make this website as a concept of something they could use in the future.
 
 # The Site
 
