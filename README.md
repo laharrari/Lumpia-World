@@ -1,16 +1,3 @@
-# NavigatorCRE-Assessment
-
-    Goal: Design a full website with a clear theme and value proposition that meets accessibility standards and
-    is mobile/desktop responsive displaying useful UI/UX trends  
-
-    Requirements:
-        • 1 home page, minimum 4 additional pages
-        • Menu
-        • 3 features (minimum) your choice
-            ◦ Ex. Floating action button, hamburger menu, animated elements (sliding up, hover, etc), words
-             icons (vice versa)
-        • Contact/inquiry form
-
 Created by Harrison Lee
 [Repo Here](https://github.com/laharrari/NavigatorCRE-Assessment)
 
